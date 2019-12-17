@@ -9,3 +9,7 @@ test_1:
 test_2:
 	erlc test.erl task_2.erl
 	erl -s test run task_2 test
+
+test_3:
+	erlc test.erl task_3.erl
+	erl -s test run task_3 test
