@@ -5,3 +5,7 @@ test:
 test_1:
 	erlc test.erl task_1.erl
 	erl -s test run task_1 test
+
+test_2:
+	erlc test.erl task_2.erl
+	erl -s test run task_2 test
