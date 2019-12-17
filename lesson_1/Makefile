@@ -17,3 +17,7 @@ test_3:
 test_4:
 	erlc test.erl task_4.erl
 	erl -s test run task_4 test
+
+test_5:
+	erlc test.erl task_5.erl
+	erl -s test run task_5 test
